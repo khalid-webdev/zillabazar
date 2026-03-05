@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Hero from '../components/Hero.vue'
+import ProductsView from '../views/ProductsView.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Hero/>
+    <ProductsView/>
   </main>
 </template>
+<style scoped></style>
