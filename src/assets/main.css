@@ -52,11 +52,12 @@ ul {
 }
 .btn{
   outline: 0;
-  border: 0;
+  border: 1px solid transparent;
   cursor: pointer;
   padding: 1rem;
   font-size: 1.1rem;
   transition: all .3s ease;
+  overflow: hidden;
 }
 
 .section_heading {
@@ -76,6 +77,34 @@ ul {
   color: var(--primary);
   font-family: "Poppins",sans-serif;
   font-style: italic;
+}
+
+button.btn.common{
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  background: none;
+  border: 1px solid transparent;
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: bold;
+}
+button.btn.primary{
+  border-radius: 20px;
+  padding: 1rem 2.5rem;
+  background: var(--primary);;
+  color: var(--light);
+  font-size: 1.72rem;
+  font-family: "Raleway",sans-serif;
+  font-weight: bold;
+}
+.btn.common:hover{
+  background: transparent!important;
+  border: .5px solid var(--primary)!important;
+}
+.btn.primary:hover{
+   background: transparent!important;
+     border: .5px solid var(--primary)!important;
+     color: var(--primary);
 }
 
 .container {

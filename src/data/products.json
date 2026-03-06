@@ -1,0 +1,114 @@
+[
+  {
+    "title": "iPhone 14 Pro",
+    "description": "The iPhone 14 Pro is the latest flagship smartphone from Apple, featuring a stunning 6.1-inch OLED display, A16 Bionic chip, 128GB storage, and a triple-lens camera system. This phone also includes advanced features such as Face ID, wireless charging, and water resistance.",
+    "price": 1299,
+    "stock": 8,
+    "image": "./src/assets/products/f1.jpg"
+  },
+  {
+    "title": "Samsung Galaxy A54",
+    "description": "The Samsung Galaxy A54 is a mid-range smartphone with a 6.5-inch FHD+ Super AMOLED display, 4GB of RAM, 128GB of storage, and a quad-lens camera system. It also features a 5000mAh battery with fast charging capabilities and runs on Android 11 with One UI 3.1.",
+    "price": 399,
+    "stock": 50,
+    "image": "./src/assets/products/f2.jpg"
+  },
+  {
+    "title": "Google Pixel 7 Pro",
+    "description": "The Google Pixel 7 Pro is a premium smartphone with a 6.5-inch QHD+ OLED display, 8GB of RAM, 256GB of storage, and a dual-lens camera system. It also features a 4500mAh battery with fast charging capabilities and runs on Android 12 with the latest version of Google Assistant.",
+    "price": 999,
+    "stock": 20,
+    "image": "./src/assets/products/f3.jpg"
+  },
+  {
+    "title": "OnePlus 11R 5G",
+    "description": "The OnePlus 11R 5G is a flagship smartphone with a 6.7-inch QHD+ Fluid AMOLED display, 12GB of RAM, 512GB of storage, and a triple-lens camera system. It also features a 5000mAh battery with Warp Charge 65T and runs on OxygenOS 12 based on Android 12.",
+    "price": 1299,
+    "stock": 30,
+    "image": "./src/assets/products/f4.jpg"
+  },
+  {
+    "title": "iPhone 13",
+    "description": "The iPhone 13 is the latest flagship smartphone from Apple, featuring a stunning 6.1-inch OLED display, A15 Bionic chip, 128GB storage, and a dual-lens camera system. This phone also includes advanced features such as Face ID, wireless charging, and water resistance.",
+    "price": 1099,
+    "stock": 75,
+    "image": "./src/assets/products/f5.jpg"
+  },
+  {
+    "title": "MacBook Pro M1",
+    "description": "The MacBook Pro M1 is Apple's flagship laptop featuring the M1 chip, 16GB of RAM, 512GB of storage, and a stunning 13-inch Retina display. It also includes a Touch Bar, Touch ID, and runs on macOS Big Sur.",
+    "price": 1699,
+    "stock": 40,
+       "image": "./src/assets/products/f6.jpg"
+  },
+  {
+    "title": "Dell XPS 13",
+    "description": "The Dell XPS 13 is a premium laptop with a 13.4-inch FHD+ InfinityEdge display, 16GB of RAM, 512GB of storage, and a 11th Gen Intel Core i7 processor. It also features a backlit keyboard, fingerprint reader, and runs on Windows 10.",
+    "price": 1399,
+    "stock": 30,
+      "image": "./src/assets/products/f7.jpg"
+  },
+  {
+    "title": "HP Spectre x360",
+    "description": "The HP Spectre x360 is a 2-in-1 laptop with a 14-inch 4K OLED display, 16GB of RAM, 1TB of storage, and a 11th Gen Intel Core i7 processor. It also features a backlit keyboard, fingerprint reader, and runs on Windows 10.",
+    "price": 1899,
+    "stock": 25,
+    "image": "./src/assets/products/f8.jpg"
+  },
+  {
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "description": "The Lenovo ThinkPad X1 Carbon is a business laptop with a 14-inch FHD+ display, 16GB of RAM, 512GB of storage, and a 11th Gen Intel Core i7 processor. It also features a backlit keyboard, fingerprint reader, and runs on Windows 10 Pro.",
+    "price": 1499,
+    "stock": 20,
+    "image": "./src/assets/products/n1.jpg"
+  },
+  {
+    "title": "Apple 2022 MacBook Air",
+    "description": "The 2022 MacBook Air is Apple's ultralight laptop featuring the M2 chip, 16GB of RAM, 1TB of storage, and a 13.3-inch Retina display. It also includes a Touch ID sensor and runs on macOS Monterey.",
+    "price": 1799,
+    "stock": 50,
+    "image": "./src/assets/products/n2.jpg"
+  },
+  {
+    "title": "HP Pavilion Gaming 15",
+    "description": "The HP Pavilion Gaming 15 is a powerful gaming laptop with a 15.6-inch FHD display, 16GB of RAM, 512GB of storage, and a 11th Gen Intel Core i7 processor. It also features a backlit keyboard, NVIDIA GeForce RTX 3050 graphics, and runs on Windows 10 Home.",
+    "price": 1199,
+    "stock": 30,
+    "image": "./src/assets/products/n3.jpg"
+  },
+  {
+    "title": "ASUS ZenBook",
+    "description": "The ASUS ZenBook is a premium laptop with a 13.3-inch FHD+ display, 16GB of RAM, 512GB of storage, and a 11th Gen Intel Core i7 processor. It also features a backlit keyboard, fingerprint reader, and runs on Windows 10 Home.",
+    "price": 1299,
+    "stock": 35,
+    "image": "./src/assets/products/n4.jpg"
+  },
+  {
+    "title": "Apple Watch Series 7",
+    "description": "The Apple Watch Series 7 is the latest smartwatch from Apple with a redesigned Always-On Retina display that's 20% larger than its predecessor. It features fitness tracking, heart rate monitoring, sleep tracking, and an ECG app. It's available in both GPS and cellular versions, and comes in a variety of colors and band styles.",
+    "price": 399,
+    "stock": 50,
+    "image": "./src/assets/products/n5.jpg"
+  },
+  {
+    "title": "Samsung Galaxy Watch 4",
+    "description": "The Samsung Galaxy Watch 4 is a feature-packed smartwatch with a 1.4-inch AMOLED display, fitness tracking, sleep tracking, heart rate monitoring, and an ECG app. It runs on Samsung's own Wear OS and is available in both Bluetooth and LTE versions. It also has a variety of band styles and colors to choose from.",
+    "price": 299,
+    "stock": 30,
+    "image": "./src/assets/products/n6.jpg"
+  },
+  {
+    "title": "Garmin Forerunner 945",
+    "description": "The Garmin Forerunner 945 is a high-end GPS running watch with built-in maps, music storage, and advanced training features. It also has fitness tracking, sleep tracking, and heart rate monitoring. It's water-resistant up to 50 meters and has a battery life of up to 2 weeks in smartwatch mode.",
+    "price": 599,
+    "stock": 20,
+    "image": "./src/assets/products/n7.jpg"
+  },
+  {
+    "title": "Fitbit Sense",
+    "description": "The Fitbit Sense is a health-focused smartwatch with fitness tracking, sleep tracking, heart rate monitoring, and an EDA sensor that measures stress levels. It also has built-in GPS, voice assistant support, and a battery life of up to 6 days. It comes in a variety of band styles and colors to choose from.",
+    "price": 299,
+    "stock": 20,
+    "image": "./src/assets/products/n8.jpg"
+  }
+]

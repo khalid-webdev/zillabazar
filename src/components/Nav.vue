@@ -44,7 +44,8 @@ const router = useRouter();
 
 .logo{
   width: 100px;
-  cursor: pointer;
+  cursor:pointer;
+
   height: 70px;
 }
 .logo img{
@@ -55,29 +56,34 @@ const router = useRouter();
 .search_box {
   display: flex;
   align-items: center;
-  background: whitesmoke;
+  background: rgb(237, 237, 237);
   width: 300px;
-  height: 35px;
-  border-radius: 20px;
+  height: 40px;
+  border-radius: 2rem;
   position: relative;
 }
 .search_box input{
 margin-right: 2rem;
+width: inherit;
 height: 100%;
 border: 0;
-padding:0 .7rem;
+padding:0 2rem 0 1rem;
 background: transparent;
 outline: 0;
 }
 .search_box button {
+  width: 60px;
 height: 100%;
 position: absolute;
 right: 0;
-background: transparent;
+border: none;
+border-radius: 0 20px 20px 0;
+  background: rgb(205, 205, 205);
 }
 .search_box button i{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
+
 nav ul{
   display: flex;
   align-items: center;

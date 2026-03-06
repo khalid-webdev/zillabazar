@@ -1,4 +1,5 @@
 <script setup>
+
 import Hero from '../components/Hero.vue'
 import ProductsView from '../views/ProductsView.vue'
 </script>
@@ -7,6 +8,7 @@ import ProductsView from '../views/ProductsView.vue'
   <main>
     <Hero/>
     <ProductsView/>
+
   </main>
 </template>
 <style scoped></style>

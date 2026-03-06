@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router';
 import Nav from './components/Nav.vue'
 import ContactBanner from './components/ContactBanner.vue'
+import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import ContactBanner from './components/ContactBanner.vue'
     <ContactBanner/>
     <Nav/>
     <RouterView/>
-    <div class="spacer"></div>
+    <Footer/>
   </main>
 </template>
 

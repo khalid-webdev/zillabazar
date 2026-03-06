@@ -3,8 +3,10 @@
 </script>
 
 <template>
-  <div>
-    <h3>THis is a cart page </h3>
+  <div class="cart">
+    <div class="container">
+      
+    </div>
   </div>
 </template>
 

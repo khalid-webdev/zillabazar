@@ -44,18 +44,11 @@ const config = {
 </template>
 
 <style scoped>
-/* .hero_section{
-  width: 100%;
-  height: 600px;
-  background-image: url('../assets/banner/hero2.jpeg');
-  background-size: cover;
-  position: relative;
-  display: inline-block;
-}
-*/
+
 .hero_section{
   width: 100%;
-  height: 620px;
+  height: 75vh;
+  overflow: hidden;
   position: relative;
   display: inline-block;
 }
@@ -76,8 +69,8 @@ const config = {
 }
 .container{
   position: absolute;
-  top: 25%;
-  left: 10%;
+  bottom: 15%;
+  left: 7.5%;
   z-index: 3;
 }
 .container h1{
@@ -92,28 +85,10 @@ const config = {
   font-style: italic;
 }
 
-button.btn.common{
-  margin-top: 2rem;
-  border-radius: 20px;
-  padding: 1rem 2rem;
-  background: none;
-  border: 1px solid transparent;
-  color: var(--primary);
-  font-size: 2rem;
-  font-weight: bold;
+
+.common{
+    margin-top: 2rem;
 }
 button.btn.primary{
-  margin-right: 2.5rem;
-  border-radius: 20px;
-  padding: 1rem 2.5rem;
-  background: var(--primary);;
-  color: var(--light);
-  font-size: 1.72rem;
-  font-family: "Raleway",sans-serif;
-  font-weight: bold;
-}
-.btn:hover{
-  background: transparent!important;
-  border: .5px solid var(--primary)!important;
-}
+  margin-right: 2.5rem;}
 </style>

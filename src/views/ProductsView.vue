@@ -1,6 +1,7 @@
 
 <script setup>
-
+import Card from '@/components/Card.vue';
+import products from '../data/products.json'
 </script>
 
 <template>
@@ -11,6 +12,9 @@
     <p>Find It. Love It. Own It.</p>
   </div>
   <div class="products">
+    <div class="products_container">
+      <Card v-for="(product,index) in products" :key="index" :product="product"/>
+    </div>
   </div>
 </div>
   </div>
@@ -22,15 +26,10 @@
   padding: 4rem 0;
 }
 
-.allImages{
-  display: flex-wrap;
-  align-items: center;
-  gap: 1rem;
-  justify-content: center;
-  text-align: center;
-}
-.allImages img{
-  width: 250px;
+.products_container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 3rem!important;
 }
 
 </style>
